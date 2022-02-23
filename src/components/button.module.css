@@ -1,0 +1,16 @@
+.item {
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.botton {
+    background-color: rgba(255, 255, 255, 0,6);
+    width: 125px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+#btn-Control:checked {
+display: none;
+} 
