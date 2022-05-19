@@ -1,10 +1,12 @@
 import React from 'react';
-import Percentage from './HOC/Percentage.jsx';
+// import s from './section-style.scc';
 const SuccessFeedback = ({ SuccessResult }) => {
   return (
     <>
-      <p>Feedback: &nbsp; {SuccessResult} %</p>
+      <li>
+        <p>Feedback: &nbsp; {SuccessResult} %</p>
+      </li>
     </>
   );
 };
-export default Percentage(SuccessFeedback);
+export default SuccessFeedback;

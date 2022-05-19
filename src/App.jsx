@@ -47,7 +47,7 @@ export default class App extends Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
-        {total >= 0 ? <SuccessFeedback SuccessResult={percentage} /> : null}
+        {total > 0 ? <SuccessFeedback SuccessResult={percentage} /> : null}
         {total === 0 ? (
           <Notification message="No feedback given" />
         ) : (
