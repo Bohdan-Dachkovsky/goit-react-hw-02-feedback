@@ -49,7 +49,7 @@ export default class App extends Component {
         </Section>
         {total > 0 ? <SuccessFeedback SuccessResult={percentage} /> : null}
         {total === 0 ? (
-          <Notification message="No feedback given" />
+          <Notification  message="No feedback given" />
         ) : (
           <Section title="Statistics">
             <Statistics
